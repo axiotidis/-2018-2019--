@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>New User</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="ge4style.css">
+    </head>
+    <body>
+        <h3 class="center">Εγγραφή στο σύστημα ElderlySupport</h3>
+        <form class="popupReg" action=insert.php method="POST">
+            <div class="col">Όνομα 
+                <input type="text" name="firstname" placeholder="" required/><br><br>
+                Επώνυμο
+                <input type="text" name="lastname" placeholder="" required/><br><br>
+                Τηλέφωνο Επικοινωνίας
+                <input type="text" name="phonenumber" placeholder=""/><br><br>
+                Κινητό Τηλέφωνο
+                <input type="text" name="mobile" placeholder="" required/><br><br>
+                Email
+                <input type="text" name="email" placeholder="" required/><br><br>
+                Υπηρεσία
+                <input type="text" name="service" placeholder="" required/><br><br></div>
+            <div class="col">Όνομα Χρήστη 
+                <input type="text" name="username" placeholder="" required/><br><br>
+                Κωδικός Χρήστη
+                <input type="password" name="pass" placeholder="" required/><br><br>
+                Επιβεβαίωση κωδικού
+                <input type="password" name="confirmpass" placeholder="" required/><br><br>
+                <input type="checkbox" name="termsOfUse" value="Terms" required>Συμφωνώ με τους <a href="">όρους</a> χρήσης<br><br>
+                <div class="bottomRight"><input type="submit" value="Δημιουργία λογαριασμού"/></div></div>
+        </form>
+    </body>
+</html>
