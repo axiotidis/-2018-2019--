@@ -1,2 +1,9 @@
-# -2018-2019--
-Υλοποίηση front end &amp; back end εφαρμογής υποστήριξης της ευζωίας των ηλικιωμένων
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         ||  
+[Prototype table]
